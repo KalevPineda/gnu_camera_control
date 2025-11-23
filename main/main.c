@@ -20,7 +20,7 @@
 // --- CONFIGURACIÓN DE RED Y MQTT ---
 #define WIFI_SSID      "l17"
 #define WIFI_PASS      "Kalev1501"
-#define MQTT_BROKER_URI "mqtt://test.mosquitto.org" // CAMBIAR POR (IP o URL) DEL BROKER MQTT
+#define MQTT_BROKER_URI "mqtt://192.168.0.123" // CAMBIAR POR (IP o URL) DEL BROKER MQTT
 // Tópicos MQTT
 #define TOPIC_MODE     "gsu/control/mode"    // "auto" o "manual"
 #define TOPIC_MANUAL   "gsu/control/manual"  // "left", "right"
@@ -39,9 +39,9 @@
 // Calibración típica SG90: 500us a 2400us
 // 500us / 20000us * 8192 = ~205
 // 2400us / 20000us * 8192 = ~983
-#define ANGLE_LEFT_GSU  320  // Aprox 125 grados (Izquierda física, visual derecha según montaje)
-#define ANGLE_RIGHT_GSU 160  // Aprox 55 grados
-#define ANGLE_STEP      15   // Pasos para modo manual
+#define ANGLE_LEFT_GSU  760  // Aprox 125 grados (Izquierda física, visual derecha según montaje)
+#define ANGLE_RIGHT_GSU 469  // Aprox 55 grados
+#define ANGLE_STEP      20   // Pasos para modo manual
 #define SCAN_INTERVAL_MS 5000 // Tiempo X entre paneos (5 segundos)
 
 // --- VARIABLES GLOBALES ---
