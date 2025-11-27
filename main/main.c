@@ -18,9 +18,9 @@
 #include "mqtt_client.h"
 
 // --- CONFIGURACIÓN DE RED Y MQTT ---
-#define WIFI_SSID      "gsu_sys"
-#define WIFI_PASS      "Kalev1501"
-#define MQTT_BROKER_URI "mqtt://10.42.0.1" // CAMBIAR POR (IP o URL) DEL BROKER MQTT
+#define WIFI_SSID      "tenda2"
+#define WIFI_PASS      "12344321"
+#define MQTT_BROKER_URI "mqtt://192.168.0.5" // CAMBIAR POR (IP o URL) DEL BROKER MQTT
 // Tópicos MQTT
 #define TOPIC_MODE     "gsu/control/mode"    // "auto" o "manual"
 #define TOPIC_MANUAL   "gsu/control/manual"  // "left", "right"
